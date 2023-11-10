@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* #preload-images {
+  display: none;
+}
+
+#preload-images::after {
+  content: url('./images/frame_0.png') url('./images/frame_1.png') url('./images/frame_2.png') url('./images/frame_3.png') url('./images/frame_4.png') url('./images/frame_5.png') url('./images/frame_6.png') url('./images/frame_7.png') url('./images/frame_8.png') url('./images/frame_9.png') url('./images/frame_10.png') url('./images/frame_11.png') url('./images/frame_12.png') url('./images/frame_13.png') url('./images/frame_14.png') url('./images/frame_15.png') url('./images/frame_16.png') url('./images/frame_17.png') url('./images/frame_18.png') url('./images/frame_19.png') url('./images/frame_20.png') url('./images/frame_21.png') url('./images/frame_22.png') url('./images/frame_23.png');
+} */
+
+
+body {
+  background-image: url('./images/frame_8.png');
+  background-repeat: repeat;
+}
+/* 
+body {
+  animation: frameAnimation 8s infinite;
+  background-repeat: repeat;
+}
+
+@keyframes frameAnimation {
+  0% { background-image: url('/images/frame_0.png'); }
+  4.17% { background-image: url('/images/frame_1.png'); }
+  8.33% { background-image: url('/images/frame_2.png'); }
+  12.5% { background-image: url('/images/frame_3.png'); }
+  16.77% { background-image: url('/images/frame_4.png'); }
+  20.83% { background-image: url('/images/frame_5.png'); }
+  25% { background-image: url('/images/frame_6.png'); }
+  29.17% { background-image: url('/images/frame_7.png'); }
+  33.33% { background-image: url('/images/frame_8.png'); }
+  37.5% { background-image: url('/images/frame_9.png'); }
+  41.67% { background-image: url('/images/frame_10.png'); }
+  45.83% { background-image: url('/images/frame_11.png'); }
+  50% { background-image: url('/images/frame_12.png'); }
+  54.17% { background-image: url('/images/frame_13.png'); }
+  58.33% { background-image: url('/images/frame_14.png'); }
+  62.5% { background-image: url('/images/frame_15.png'); }
+  66.67% { background-image: url('/images/frame_16.png'); }
+  70.83% { background-image: url('/images/frame_17.png'); }
+  75% { background-image: url('/images/frame_18.png'); }
+  79.17% { background-image: url('/images/frame_19.png'); }
+  83.33% { background-image: url('/images/frame_20.png'); }
+  87.5% { background-image: url('/images/frame_21.png'); }
+  91.67% { background-image: url('/images/frame_22.png'); }
+  95.83% { background-image: url('/images/frame_23.png'); }
+  100% { background-image: url('/images/frame_0.png'); }
+} */
